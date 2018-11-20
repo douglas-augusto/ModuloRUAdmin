@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FuncLoginActivity"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+    android:background="#3384c2">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_account_balance_wallet"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modulo RU Admin"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/campoEmailFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:drawablePadding="16dp"
+        android:drawableRight="@drawable/ic_person_outline_red_400_24dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="16dp"
+        android:hint="Senha"
+        android:textColorHint="#3384c2"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:id="@+id/campoSenhaFuncionario"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_lock_red_400_24dp"
+        android:background="@drawable/bkgrd_redlogin1"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/botaoEntrarFuncionario"
+        android:background="@drawable/bkgd_red_2"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text=" Entrar"
+        android:textAllCaps="false"
+        android:textColor="#3384c2"
+        android:textSize="18sp" />
+
+</LinearLayout>

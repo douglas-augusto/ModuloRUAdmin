@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "791060053529",
+    "firebase_url": "https://carteira-virtual-ru.firebaseio.com",
+    "project_id": "carteira-virtual-ru",
+    "storage_bucket": "carteira-virtual-ru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791060053529:android:d0a86b4423c70a90",
+        "android_client_info": {
+          "package_name": "com.douglas.ufpi.moduloruadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791060053529-mirr4kfffrn2trso0hhm02uaknn4jshr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.douglas.ufpi.moduloruadmin",
+            "certificate_hash": "1c8264671e920578fe5f2d6823eccffe2ba98ae0"
+          }
+        },
+        {
+          "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6v04a-ij1QoHmbOc4IP5RoKiQbErwB8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791060053529:android:c45ee3607b3acb8c",
+        "android_client_info": {
+          "package_name": "ufpi.douglas.carteiravirtualru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791060053529-om5bdu8drv33v9g9dnpeascetaj71vsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ufpi.douglas.carteiravirtualru",
+            "certificate_hash": "4abf95db3575e2dd0c89fe386869d84205052573"
+          }
+        },
+        {
+          "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6v04a-ij1QoHmbOc4IP5RoKiQbErwB8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791060053529-bq4p12ti2iuiiclonkfdvnf26bv7cfon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

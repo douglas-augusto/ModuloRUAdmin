@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activity.MainFuncActivity"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="BEM VINDO AO SISTEMA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:text="ESCOLHA UMA OPÇÃO ABAIXO" />
+
+
+    <Button
+        android:id="@+id/botaoVenderFichas"
+        android:layout_width="match_parent"
+        android:layout_marginTop="170dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:text="VENDER FICHAS" />
+
+    <Button
+        android:id="@+id/botaoPortaria"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="MODO PORTARIA" />
+
+    <Button
+        android:id="@+id/botaoDeslogarFunc"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="DESLOGAR" />
+
+</LinearLayout>

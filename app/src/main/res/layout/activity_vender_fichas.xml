@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.VenderFichasActivity">
+
+    <TextView
+        android:id="@+id/textNomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textCursoAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textFichas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/quantidadeFichas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:hint="Quantidade de fichas" />
+
+    <Button
+        android:id="@+id/botaoEscanear"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escanear" />
+
+    <Button
+        android:id="@+id/botaoVender"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vender" />
+
+</LinearLayout>
